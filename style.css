@@ -1,0 +1,26 @@
+
+body {
+    background-color: rgb(173, 235, 240);
+}
+h1 {
+    font-style: oblique;
+}
+#meuNome, #Descricao {
+    font-family: Arial, Helvetica, sans-serif;
+}
+em {
+    color: rgb(10, 103, 184);
+}
+.javascript {
+    font-size: 20px;
+}
+.html {
+    font-size: 18px;
+}
+.css {
+    font-size: 16px;
+}
+.designer {
+    font-size: 14px;
+}
+
