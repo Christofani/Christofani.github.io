@@ -1,12 +1,14 @@
 
 body {
-    background-color: rgb(173, 235, 240);
+    background-color: rgb(204, 249, 252);
+    padding: 3%;
 }
 h1 {
     font-style: oblique;
 }
-#meuNome, #Descricao {
+#meuNome {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 em {
     color: rgb(10, 103, 184);
@@ -23,4 +25,27 @@ em {
 .designer {
     font-size: 14px;
 }
-
+#Minhafoto {
+    float: left;
+    width: 380px;
+    padding: 10px;
+    background-color: black;
+    
+    
+}
+.imagem-cont {
+    height: 400px;
+    position: relative;
+    
+}
+.descricao1 {
+    left: 36%;
+    top: 8%;
+    font-size: 20px;
+    font-family: monospace;
+    position: absolute;
+    
+}
+ul li:nth-child(odd) {
+    background-color: blue;
+}
