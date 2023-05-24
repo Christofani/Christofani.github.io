@@ -1,14 +1,13 @@
 
 body {
-    background-color: rgb(204, 249, 252);
-    padding: 3%;
+    background-color: rgb(237, 246, 247);
 }
 h1 {
     font-style: oblique;
 }
 #meuNome {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    margin-left: 300px;
 }
 em {
     color: rgb(10, 103, 184);
@@ -17,35 +16,45 @@ em {
     font-size: 20px;
 }
 .html {
-    font-size: 18px;
+    font-size: 20px;
 }
 .css {
-    font-size: 16px;
+    font-size: 20px;
 }
 .designer {
-    font-size: 14px;
+    font-size: 20px;
 }
 #Minhafoto {
-    float: left;
-    width: 380px;
-    padding: 10px;
-    background-color: black;
-    
+    width: 300px;
+    padding: 5px;
+    background-color: rgb(139, 145, 144);
+    border-radius: 20px;
+    box-shadow:  2px 1px  rgb(50, 51, 51);   
     
 }
 .imagem-cont {
     height: 400px;
-    position: relative;
-    
 }
 .descricao1 {
-    left: 36%;
-    top: 8%;
     font-size: 20px;
     font-family: monospace;
-    position: absolute;
+    width: 500px;
+    margin-left: 20px;
     
 }
-ul li:nth-child(odd) {
-    background-color: blue;
+ul li {
+    background-color: rgb(170, 154, 154);
 }
+
+.main-container {
+    display: flex;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
