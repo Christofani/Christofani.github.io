@@ -47,6 +47,7 @@ ul li {
     border:  1px solid black;
     box-shadow: 5px 5px 5px black ;
     border-radius: 5px;
+    width: 100%;
     
 }
 
@@ -61,7 +62,8 @@ a {
 }
 
 .logo-image {
-    width: 200px;
+    width: 150px;
+    padding: 10px;
 }
 
 .logo-container {
